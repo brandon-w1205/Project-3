@@ -73,10 +73,10 @@ export default function Profile(props) {
 		<div class='bg'>
 			{/* <img src="https://i.imgur.com/P3NYRmG.png" alt="avatar"
 			class="rounded-circle img-fluid" style="width: 150px;" > */}
-			<h5 class="my-3">Just brew it {props.currentUser.name}</h5>
-			<p class="text-muted mb-4">Your Saved Cafes Below:</p>
+			<h5 className="item1">Just brew it {props.currentUser.name}</h5>
+			<p className="sub-title">Your Saved Cafes Below:</p>
 			<div class="d-flex justify-content-center mb-2">
-			<p class="text-muted mb-0">{displaySaves}</p>
+			<p className="item1">{displaySaves}</p>
 			</div>
 			
 		</div>

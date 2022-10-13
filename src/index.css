@@ -67,3 +67,28 @@ code {
   color: #f4ead8;
   font-size: 20px;
 }
+
+.sub-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  color: #f4ead8;
+  margin-bottom: 40px;
+}
+
+.post-comment_username {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid #adadad;
+  background-color:#def2da;
+}
+
+.post-comment_content {
+  text-align: start;
+  width: 100%;
+  height: 90px;
+  border-radius: 5px;
+  border: 2px solid #adadad;
+  background-color:#def2da;
+}

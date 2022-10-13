@@ -14,7 +14,7 @@ export default function Result(props) {
 	const [editContent, setEditContent] = useState("")
 	const [editDrinkName, setEditDrinkName] = useState("")
 	const [editDrinkScore, setEditDrinkScore] = useState("")
-	const [saveButton, setSaveButton] = useState("Save Button Operator")
+	const [saveButton, setSaveButton] = useState("Save")
 
 	const navigate = useNavigate()
 
