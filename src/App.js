@@ -28,51 +28,6 @@ import Search from './components/routes/Search'
 function App(term, location) {
   // // the currently logged in user will be stored up here in state
   const [currentUser, setCurrentUser] = useState(null)
-  // const [businesses, setBusinesses] = useState([])
-  // const [amountResults, setAmountResults] = useState()
-  // const [searchParams, setSearchParams] = useState({term, location})
-
-// useEffect(() => {
-  //   setBusinesses([]);
-  //   const fetchData = async () => {
-//     try {
-  //       const rawData = await api.get('/businesses/search', searchParams)
-  //       const resp = await rawData.json()
-  //       setBusinesses(resp.businesses)
-  //       setAmountResults(resp.total)
-//     } catch (err) {
-  //       console.log(err)
-//     }
-//   }
-  //   fetchData()
-  // }, [searchParams])
-
-
-  // // api responses
-  // const [ apiResponse, setApiResponse ] = useState([])
-
-  // // controlled input of cofes search
-  // const [ inputValue, setInputValue ] = useState('')
-
-  // // what to search on the api
-  // const [ search, setSearch ] = useState('cafe')
-
-  // // saved cafes
-  // const [ save, setSave ] = useState([])
-
-//   // fetching api data
-//   useEffect(() => {
-//     const getCoffee = async () => {
-//       try {
-//         const url = "https://api.yelp.com/v3/businesses/north-india-restaurant-san-francisco"
-//         const response = await axios.get(url)
-//         console.log(response.data)
-//       } catch(err){
-//         console.warn(err)
-//       }
-//     }
-//     getCoffee()
-//   }, [])
 
 const [search, setSearch] = useState('92886')
 const [results, setResults] = useState([])
